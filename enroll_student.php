@@ -63,7 +63,7 @@
                 <hr>
                 
                 <div class="row" id="cs">
-                    <h4><a href="cs.php">Computer Science Engineering(CSE)</a></h4>
+                    <h4><button href="cs.php">Computer Science Engineering(CSE)</a></h4>
                 </div>
                 <div class="row" id="it">
                     <h4><a href="IT.php">Information Tchnology</a></h4>
