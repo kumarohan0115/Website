@@ -70,3 +70,7 @@ image{
 a{
     text-decoration: none;
 }
+
+.navigation{
+    display: block;
+}
