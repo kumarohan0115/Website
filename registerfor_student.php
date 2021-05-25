@@ -7,11 +7,14 @@ $student_section = $_POST['section'];
 
 $connection= mysqli_connect("localhost","root","","shashank") or die("connection failed");
 
-$sql_query= "INSERT INTO student_table (STU_ID,STU_NAME,BRANCH,SECTION)
+$query= "INSERT INTO student_table(STU_ID,STU_NAME,BRANCH,SECTION)
 VALUES  (
 '{$student_id}','{$student_name}','{$student_branch}','{$student_section}')";
 
-$result=mysqli_query($connection,$mysql_query) or die("failed");
+$result=mysqli_query($connection,$query) or die("failed");
+
+header("Location:http://localhost//Github_repo//Website//enroll_student.php");
+
 
 mysqli_close($connection);
 
