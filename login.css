@@ -72,5 +72,5 @@ a{
 }
 
 .navigation{
-    display: block;
+    display: inline-blocks;
 }
