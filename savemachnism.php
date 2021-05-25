@@ -15,11 +15,11 @@ $FINALLY_result=mysqli_query($connect,$login) or die("failed") ;
 
 if(mysqli_num_rows($FINALLY_result)>0)
 {
-    header("Location:http://localhost//Github_repo//enroll_student.php");
+    header("Location:http://localhost//Github_repo//Website//enroll_student.php");
 
 }
 else{
-    header("Location:http://localhost//Github_repo//login.php");
+    header("Location:http://localhost//Github_repo//Website//login.php");
 }
 
 mysqli_close($connect);
