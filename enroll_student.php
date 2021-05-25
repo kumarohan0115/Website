@@ -18,7 +18,7 @@
         </div>
         <div class="row rooo">
             <div class="col-5 offset-1" id="enrol">
-                <form class="form-group"  action=registerfor_student.php" method="POST"  id="newen" >
+                <form class="form-group"  action="registerfor_student.php" method="POST"  id="newen" >
                     <div class="row">
                         <h5>
                             New Enrollment
