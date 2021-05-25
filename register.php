@@ -30,24 +30,25 @@
                         <th>Status</th>
                     </tr>
                 
-                        
-                        <?php while($rowforjoin=mysqli_fetch_assoc($RESULT))
-                        {
-                            ?>
-                            <tr>
-                                
-                                <td><?php echo $rowforjoin['STU_ID']?></td>
-                                <td><?php echo $rowforjoin['STU_NAME']?> </td>
-                                <td>CSE</td>
-                                <td><?php echo $rowforjoin['SECTION'] ?> </td>
-                                <td><button id="p" type="submit">P</button>
-                                    <button id="a" type="submit">A</button>
-                                </td>
-                            </tr>
-                        <?php }
-                        
+                    
+                    <?php while($rowforjoin=mysqli_fetch_assoc($RESULT))
+                    {
                         ?>
-                    }
+                        <tr>
+                            
+                            <td><?php echo $rowforjoin['STU_ID']?></td>
+                            <td><?php echo $rowforjoin['STU_NAME']?> </td>
+                            <td>CSE</td>
+                            <td><?php echo $rowforjoin['SECTION'] ?> </td>
+                            <td><button id="p" type="submit">P</button>
+                                <button id="a" type="submit">A</button>
+                            </td>
+                        </tr>
+                    <?php }
+
+                    ?>
+                    
+                    
                     
 
                 </table>
