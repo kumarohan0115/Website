@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.jjj{
+    height: 500px;
+    margin-top: 50px;
+    background-image: url(clg.jpg);
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+.login{
+    /* width: 30%; */
+    /* display: inline-block; */
+    font-weight: 600;
+    display: block;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 480px;
+    border-radius: 0 0 10px 10px;
+}
+
+.head{
+    background-color: green;
+    height: 70px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.uid{
+    padding: 16px;
+    margin-left: 60px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+input{
+    width: 237px;
+    display: flex;
+}
+
+.heading{
+    text-align: center;
+    width: inherit;
+    padding: 0;
+    font-style: italic;
+    text-align: center;
+    background-color: grey;
+    border-radius: 7px 7px 0px 0px;
+}
+
+button{
+    width: 237px;
+    background-color: rgb(36, 165, 36);
+    height: 30px;
+    
+}
+
+image{
+    width: 500px;
+    height: inherit;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    background-color:whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.btnn{
+    background-color: green;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.fog{
+    margin: 10px;
+}
+
+#wel{
+    background-color: green;
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: oblique;
+    color: white;
+
+}
+
+.cc::before{
+    left: 0px;
+    content: "";
+    height: 2px;
+    width: 15%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.cc::after{
+    right: 0px;
+    content: "";
+    height: 2px;
+    width: 15%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.cc{
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 10px 10px 0 0;
+    font-style: oblique;
+}
+
+p{
+    color: red;
+}
+
+label{
+    font-weight: 500;
+}
+
+
+
