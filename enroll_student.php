@@ -54,6 +54,8 @@
 
             </div>
             
+
+
             <div class="col-5 offset-2" id="bod">
                 <div class="row">
                     <h3 id="b_head">
@@ -62,8 +64,7 @@
                 </div>
                 <hr>
                 <div class="row" id="cs">
-                    <h4><a 
-                          href="register.php">Computer Science Engineering(CSE)</a></h4>
+                    <h4><a  href="register.php">Computer Science Engineering(CSE)</a></h4>
 
                 </div>
                 <div class="row" id="it">
