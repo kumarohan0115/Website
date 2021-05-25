@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#enrol{
+    width: 400px;
+    background-color: whitesmoke;
+    height: 510px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+#t{
+    border-radius: 10px 10px 0 0 ;
+}
+
+#bod{
+    border: 2px solid black;
+    
+}
+
+.newen{
+    background-color: white;
+    /* margin-left: 20px; */
+    padding: 10px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h5{
+    background-color: teal;
+    text-align: center;
+    margin-top: 30px;
+    display: inherit;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+    /* background-color: #4d4dff */
+    /* margin: ; */
+}
+
+#b_head{
+    text-align: center;
+    background-color: #FA5B00;
+}
+
+label{
+    font-weight: 600;
+}
+
+button{
+    width: 200px;
+    margin-left: 70px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(13, 64, 160);
+}
+
+.rooo{
+    margin-top: 70px;
+}
+
+.t_name{
+    text-align: center;
+    color: white;
+    background-color: forestgreen;
+    height: 50px;
+
+}
+
+a{
+    /* background-color: rgb(12, 87, 100); */
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+hr{
+    color:black;
+}
+
+#cs{
+    background-color: #5C85FF;
+    margin-top: 20px;
+}
+
+#it{
+    background-color: #2CE68C;
+    margin-top: 20px;
+}
+
+#ec{
+    background-color: #FA6E65;
+    margin-top: 20px;
+}
+
+#me{
+    background-color: #63c415;
+    margin-top: 20px;
+}
+
+#civil{
+
+    background-color: #b52bdf;
+    margin-top: 20px;
+}
+
+
+
+
+:hover a{
+    color: white;
+}
