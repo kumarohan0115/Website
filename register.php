@@ -38,7 +38,7 @@
                             
                             <td><?php echo $rowforjoin['STU_ID']?></td>
                             <td><?php echo $rowforjoin['STU_NAME']?> </td>
-                            <td>CSE</td>
+                            <td><?php echo $rowforjoin['BRANCH'] ?></td>
                             <td><?php echo $rowforjoin['SECTION'] ?> </td>
                             <td><button id="p" type="submit">P</button>
                                 <button id="a" type="submit">A</button>
