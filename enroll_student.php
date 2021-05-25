@@ -13,7 +13,7 @@
     <div class="cotainer">
         <div class="t_name">
             <h3>
-                Welcome(teachername) 
+                Welcome  
             </h3>
         </div>
         <div class="row rooo">
