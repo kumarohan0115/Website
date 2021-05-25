@@ -71,6 +71,21 @@ a{
     text-decoration: none;
 }
 
-.navigation{
-    display: inline-blocks;
+.naav{
+    background-color: rgb(19, 19, 151);
+}
+
+#test1{
+    margin-top: 60px;
+    align-items: flex-start;
+    padding-right: 20px;
+
+}
+
+#test1 a{
+    padding-right: 10px;
+    margin-left: 10px;
+    color: white;
+    border-right: 2px solid;
+    text-decoration: none;
 }

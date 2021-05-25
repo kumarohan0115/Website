@@ -15,16 +15,14 @@
     <div class="head">
         <h2 id="wel">Welcome Faculty to Login</h2>
     </div>
-    <div class="navigation">
-        <li>
-            <ul>HOME</ul>
-            <ul>EVENT</ul>
-            <ul>OFFICIAL WEBSITE</ul>
-            <ul>ABOUT US</ul>
-            
-            <!-- <ul></ul> -->
-        </li>
-    </div>
+    <div class="naav">
+            <nav id="test1">
+                <a href="">HOME</a>
+                <a href="https://www.gniotgroup.edu.in/">OFFICIAL WEBSITE</a>
+                <a href="">EVENTS</a>
+                <a href="">ABOUT US</a>
+            </nav>
+        </div>
     <form action="savemachnism.php" method="POST">
     <div class="container">
         <div class="row">
