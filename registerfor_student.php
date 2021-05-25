@@ -1,9 +1,9 @@
 <?php
 
-$student_id=$_POST[''];
-$student_name=$_POST[''];
-$student_branch=$_POST[''];
-$student_section = $_POST[''];
+$student_id=$_POST['SID'];
+$student_name=$_POST['F_name'];
+$student_branch=$_POST['branch'];
+$student_section = $_POST['section'];
 
 $connection= mysqli_connect("localhost","root","","shashank") or die("connection failed");
 

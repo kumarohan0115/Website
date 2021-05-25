@@ -18,7 +18,7 @@
         </div>
         <div class="row rooo">
             <div class="col-5 offset-1" id="enrol">
-                <form class="form-group" id="newen" >
+                <form class="form-group"  action=registerfor_student.php" method="POST"  id="newen" >
                     <div class="row">
                         <h5>
                             New Enrollment
@@ -34,7 +34,7 @@
                     </div>
                     <div class="roll">
                         <label for="Last name">Last Name:</label>
-                        <input type="text" class="form-control" name="F_name" placeholder="First name(Optional)">
+                        <input type="text" class="form-control" name="L_name" placeholder="First name(Optional)">
                     </div>
                     <div class="roll">
                         <label for="First name">Branch</label>
