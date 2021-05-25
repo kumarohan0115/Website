@@ -15,6 +15,16 @@
     <div class="head">
         <h2 id="wel">Welcome Faculty to Login</h2>
     </div>
+    <div class="navigation">
+        <li>
+            <ul>HOME</ul>
+            <ul>EVENT</ul>
+            <ul>OFFICIAL WEBSITE</ul>
+            <ul>ABOUT US</ul>
+            
+            <!-- <ul></ul> -->
+        </li>
+    </div>
     <form action="savemachnism.php" method="POST">
     <div class="container">
         <div class="row">
