@@ -18,9 +18,9 @@
         </div>
         <div class="row rooo">
             <div class="col-5 offset-1" id="enrol">
-                <form class="form-group"  action="registerfor_student.php" method="POST"  id="newen" >
+                <form class="form-group" id="newen" >
                     <div class="row">
-                        <h5>
+                        <h5 id="t">
                             New Enrollment
                         </h5>
                     </div>
@@ -34,22 +34,27 @@
                     </div>
                     <div class="roll">
                         <label for="Last name">Last Name:</label>
-                        <input type="text" class="form-control" name="L_name" placeholder="First name(Optional)">
+                        <input type="text" class="form-control" name="F_name" placeholder="First name(Optional)">
                     </div>
                     <div class="roll">
                         <label for="First name">Branch</label>
                         <input type="text" class="form-control" name="branch" placeholder="Branch" required>
                     </div>
                     <div class="roll">
-                        <label for="section">Setion</label>
+                        <label for="section">Section</label>
                         <input type="text" class="form-control" name="section" placeholder="Section" required>
                     </div>
+                    <div class="roll">
+                        <label for="tname">Mentor:</label>
+                        <input type="text" class="form-control" name="tname" autocomplete="">
+                    </div>
+
                     <button type="submit" class="btn-sm">Enroll</button>
                 </form>
 
             </div>
             
-            <div class="col-5 offset-2">
+            <div class="col-5 offset-2" id="bod">
                 <div class="row">
                     <h3 id="b_head">
                         Branch Exist
@@ -65,6 +70,12 @@
                 </div>
                 <div class="row" id="ec">
                     <h4><a href="ec.php">Electronic Engineering</a></h4>
+                </div>
+                <div class="row" id="me">
+                    <h4><a href="ec.php">Mechanical Engineering</a></h4>
+                </div>
+                <div class="row" id="civil">
+                    <h4><a href="ec.php">Civil Engineering</a></h4>
                 </div>
             </div>
         </div>
