@@ -1,4 +1,9 @@
 <?php
+
+$connective= mysqli_connect("localhost","root","","shashank") or die("connection failed");
+$query_mysql="SELECT *FROM student_table ";
+
+$RESULT=mysqli_query($connective,$query_mysql) or die("query failed");
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -23,10 +28,7 @@
                     </tr>
                 
 
-                $connective= mysqli_connect("localhost","root","","shashank") or die("connection failed");
-                    $query_mysql="SELECT *FROM student_table ";
-
-                    $RESULT=mysqli_query($connective,$query_mysql) or die("query failed");
+              
 
                     if(mysqli_num_rows($RESULT)>0)
                     {
