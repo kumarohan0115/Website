@@ -1,6 +1,7 @@
 <?php
-    session_start();
-    print_r($_SESSION)
+include 'session.php';
+
+   
 ?>
 
 <!DOCTYPE html>
