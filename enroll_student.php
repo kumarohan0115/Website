@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    print_r($_SESSION)
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +18,9 @@
     <div class="cotainer">
         <div class="t_name">
             <h3>
-                Welcome  
+                <?php
+                    echo "WELCOME". $_SESSION["tname"];
+                ?>
             </h3>
         </div>
         <div class="row rooo">

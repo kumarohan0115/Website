@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.heading{
+    align-items: center;
+    margin-left: 20%;
+    width: 800px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: grey;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.date{
+    align-items: center;
+    margin-left: 20%;
+    width: 800px;
+    text-align: center;
+    background-color: grey;
+}
+input{
+    font: 700;
+    border: 3px solid;
+    margin-top: -10px;
+}
+
+table{
+    align-self: center;
+    margin-left: 20%;
+}
+
+tr,th,td{
+    padding: 10px;
+    border: 1px solid;
+    width: 136px;
+    text-align: center;
+}
+
+#p{
+    background-color: green;
+    width: 25px;
+}
+#a{
+    background-color: red;
+    width: 25px;
+}
+
