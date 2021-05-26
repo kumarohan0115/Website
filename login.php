@@ -23,7 +23,7 @@
                 <a href="">ABOUT US</a>
             </nav>
         </div>
-        
+
     <form action="savemachnism.php" method="POST">
     <div class="container">
         <div class="row">
