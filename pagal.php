@@ -18,7 +18,7 @@
         <!-- <form action="login.html"> -->
             <ol class="" id="ll">
                     <button >
-                        <a href="login.html">Teacher Login</a>
+                        <a href="login.php">Teacher Login</a>
                     </button>
                     
                     <button class="avtar">
