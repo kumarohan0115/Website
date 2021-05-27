@@ -1,4 +1,5 @@
 <?php
+
     include 'session.php';
 ?>
 
@@ -24,7 +25,7 @@
         </div>
         <div class="row rooo">
             <div class="col-5 offset-1" id="enrol">
-                <form class="form-group" id="newen" >
+                <form class="form-group"  action="registerfor_student.php" method="POST" id="newen" >
                     <div class="row">
                         <h5 id="t">
                             New Enrollment
@@ -40,7 +41,7 @@
                     </div>
                     <div class="roll">
                         <label for="Last name">Last Name:</label>
-                        <input type="text" class="form-control" name="F_name" placeholder="First name(Optional)">
+                        <input type="text" class="form-control" name="L_name" placeholder="last name(Optional)">
                     </div>
                     <div class="roll">
                         <label for="First name">Branch</label>
@@ -60,6 +61,8 @@
 
             </div>
             
+
+
             <div class="col-5 offset-2" id="bod">
                 <div class="row">
                     <h3 id="b_head">
@@ -67,21 +70,21 @@
                     </h3>
                 </div>
                 <hr>
-                
                 <div class="row" id="cs">
-                    <h4><a href="cs.php">Computer Science Engineering(CSE)</a></h4>
+                    <h4><a  href="register.php">Computer Science Engineering(CSE)</a></h4>
+
                 </div>
                 <div class="row" id="it">
-                    <h4><a href="IT.php">Information Tchnology</a></h4>
+                    <h4><a href="register.php">Information Tchnology</a></h4>
                 </div>
                 <div class="row" id="ec">
-                    <h4><a href="ec.php">Electronic Engineering</a></h4>
+                    <h4><a href="register.php">Electronic Engineering</a></h4>
                 </div>
                 <div class="row" id="me">
-                    <h4><a href="ec.php">Mechanical Engineering</a></h4>
+                    <h4><a href="register.php">Mechanical Engineering</a></h4>
                 </div>
                 <div class="row" id="civil">
-                    <h4><a href="ec.php">Civil Engineering</a></h4>
+                    <h4><a href="register.php">Civil Engineering</a></h4>
                 </div>
             </div>
         </div>
