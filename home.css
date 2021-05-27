@@ -1,0 +1,66 @@
+#head{
+    height: 70px;
+    background-color: rgb(46, 46, 173);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    /* position: fixed; */
+    /* content: unset; */
+    width: 1300px;
+}
+
+.naviga{
+    background-color: deeppink;
+    display: block;
+    height: 51px;
+    
+    margin-right: 1px
+    /* width: 1100px; */
+}
+
+.naviga a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+}
+.bgColor :hover{
+    background-color: rgb(46, 46, 173);
+}
+
+.bgColor :active{
+    border-bottom: 2px solid white;
+}
+
+#ll{
+    /* display: inline-block; */
+    display: inline-table;
+    position: relative;
+    margin-left: 840px;
+
+}
+
+/* .avtar{
+    border-radius: 50%;
+    align-content: flex-end;
+    display: inline-block;
+    margin-left: 1000px;
+    
+} */
+
+button{
+    margin-top: -50px;
+    background-color: rgb(36, 173, 36);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+button :hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
