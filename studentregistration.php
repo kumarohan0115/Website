@@ -13,7 +13,7 @@ VALUES  (
 
 $result=mysqli_query($connection,$query) or die("failed");
 
-header("Location:http://431327e0dca4.ngrok.io/Github_repo/Website/enroll_student.php);
+header("Location:http://431327e0dca4.ngrok.io/Github_repo/Website/enroll_student.php");
 
 
 mysqli_close($connection);
