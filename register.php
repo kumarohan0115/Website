@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style_reg.css">
 </head>
 <body>
-    <form action="">
+    <form action="dataAndtime.php" method="POST" >
     <?php
         $connective= mysqli_connect("localhost","root","","shashank") or die("connection failed");
         $query_mysql="SELECT *FROM student_table ";
@@ -20,7 +20,7 @@
         ?>
                 <h2 class="heading">Attendance Register</h2>
                 <div class="attributes">
-                <h2 class="date">Date:<input type="date" name="Date"></h2>
+                <h2  class="date">Date:<input type="date" name="Date"><button id="p" type="submit">ok </button></h2> 
                 <table style="border:1px">
                     <tr>
                         <th>Id</th>
