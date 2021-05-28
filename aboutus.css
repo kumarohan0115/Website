@@ -1,0 +1,41 @@
+#top{
+    position: relative;
+    vertical-align: baseline;
+}
+
+.content{
+    height: 400px;
+}
+
+.nav2{
+    margin-top: 60px;
+}
+
+#about h5{
+    font-weight: 400;
+}
+
+#h4{
+    background-color: #333;
+    color: white;
+    padding-top: 10px;
+}
+
+#h4 h4{
+    margin-left: 40px ;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+#foot{
+    height: 200px;
+    width: inherit;
+    display: inline-flex;
+}

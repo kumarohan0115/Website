@@ -110,10 +110,6 @@ hr{
     background-color: #b52bdf;
     margin-top: 20px;
 }
-
-
-
-
-:hover a{
+a :hover{
     color: white;
 }

@@ -11,6 +11,25 @@
     <link rel="stylesheet"  href="reg.css">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="nv">
+<div class="navbar-header" style="margin-left: 30px;">
+      <a class="navbar-brand" href="#">Srank Portal</a>
+    </div>
+  <ul class="navbar-nav"  style= "padding-left: 50px;">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Previous</a>
+    </li>
+  </ul>
+</nav>
+
+
+
     <h2 id="wel">WELCOME</h2>                                   
         <form class="col-6 offset-3 form-group  "action="practise_project.php" method="POST">
         
