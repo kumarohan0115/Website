@@ -1,5 +1,9 @@
 <?php
 
+require 'connectivity.php';
+
+$connc=new connective\Connect();
+
 $student_id=$_POST['SID'];
 $student_name=$_POST['F_name'];
 $student_branch=$_POST['branch'];
@@ -13,7 +17,11 @@ VALUES  (
 
 $result=mysqli_query($connection,$query) or die("failed");
 
-header("Location:http://431327e0dca4.ngrok.io/Github_repo/Website/enroll_student.php");
+header("Location:http:enroll_student.php");
+
+
+
+
 
 
 mysqli_close($connection);
