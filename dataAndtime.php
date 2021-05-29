@@ -9,10 +9,14 @@ date_default_timezone_set("Asia/Kolkata");
 
 
 $connect=mysqli_connect("localhost","root","","shashank") or die("NBO");
-// $date = $_POST['Date'];
+$date = $_POST['Date'];
+//
+$newdate= (string)$date;
+
+echo  var_dump($newdate);
 
 
-$mysql= "CREATE TABLE '21-05-2021'(P VARCHAR(1),A VARCHAR (1)
+$mysql= "CREATE TABLE nothing (P VARCHAR(1),A VARCHAR (1)
 )";
 
 $result= mysqli_query($connect,$mysql) or die("no");

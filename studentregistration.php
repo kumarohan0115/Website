@@ -20,10 +20,6 @@ $result=mysqli_query($connection,$query) or die("failed");
 header("Location:http:enroll_student.php");
 
 
-
-
-
-
 mysqli_close($connection);
 
 

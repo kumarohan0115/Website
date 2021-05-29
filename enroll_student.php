@@ -71,20 +71,29 @@
                 </div>
                 <hr>
                 <div class="row" id="cs">
-                    <h4><a  href="register.php">Computer Science Engineering(CSE)</a></h4>
+                    <h4><form action="register.php" method="POST" >
+
+                        <button name="CSEsubmit" >Click me</button>
+
+                        </form></h4>
 
                 </div>
                 <div class="row" id="it">
-                    <h4><a href="register.php">Information Tchnology</a></h4>
+                    <h4><form action="register.php" method="POST" >
+
+                            <button name="ITsubmit" >Click me</button>
+
+                        </form>
+                     </h4>
                 </div>
                 <div class="row" id="ec">
-                    <h4><a href="register.php">Electronic Engineering</a></h4>
+                    <h4><a href="register.php" >Electronic Engineering</a></h4>
                 </div>
                 <div class="row" id="me">
-                    <h4><a href="register.php">Mechanical Engineering</a></h4>
+                    <h4><a href="register.php" > Mechanical Engineering</a></h4>
                 </div>
                 <div class="row" id="civil">
-                    <h4><a href="register.php">Civil Engineering</a></h4>
+                    <h4><a href="register.php" >Civil Engineering</a></h4>
                 </div>
             </div>
         </div>

@@ -8,10 +8,23 @@
     <link rel="stylesheet" href="style_reg.css">
 </head>
 <body>
-    <form action="dataAndtime.php" method="POST" >
+    <form action="">
     <?php
+    $newbranch="";
+
+       if(isset($_POST['CSEsubmit']))
+       {
+        $newbranch="CSE";
+
+       }
+      else if(isset($_POST['ITsubmit']))
+       {
+           $newbranch="IT";
+
+       }
+
         $connective= mysqli_connect("localhost","root","","shashank") or die("connection failed");
-        $query_mysql="SELECT *FROM student_table ";
+        $query_mysql="SELECT *FROM student_table WHERE BRANCH ='{$newbranch}'";
 
         $RESULT=mysqli_query($connective,$query_mysql) or die("query failed");
 
