@@ -13,24 +13,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="enrol.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 <body>
 
 
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="nv">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark" style="color: white;">
 <div class="navbar-header">
-      <a class="navbar-brand" href="#">Srank Portal</a>
+      <a class="navbar-brand" href="pagalpanti.php">Srank Portal</a>
     </div>
   <ul class="navbar-nav"  style= "padding-left: 50px;">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="pagalpanti.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="ABOUTUS.HTML">About</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Previous</a>
-    </li>
-  </ul>
+    </ul>
+    <ul class="nav-item navbar-nav navbar-right" style="color:white; margin-left:800px; background-color: black;">
+      <li id="lk"><a href="login.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+  
 </nav>
 
     <div class="cotainer">

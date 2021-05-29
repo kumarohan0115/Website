@@ -13,7 +13,7 @@ VALUES('{$student_id}','{$student_name}','{$student_branch}','{$student_section}
 
 $result=mysqli_query($connection,$query) or die("failed");
 
-header("Location:http://431327e0dca4.ngrok.io/Github_repo/Website/register.php");
+header("Location:localhost/attend_repo/Website/register.php");
 
 
 mysqli_close($connection);

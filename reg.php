@@ -9,6 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet"  href="reg.css">
+    <!-- <script>
+        function myFunction() {
+        alert("Registration Sucessfull!");
+        }
+    </script> -->
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="nv">
@@ -17,10 +22,10 @@
     </div>
   <ul class="navbar-nav"  style= "padding-left: 50px;">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="pagalpanti.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="ABOUTUS.HTML">About</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Previous</a>
@@ -71,11 +76,18 @@
                             
                         </div>
                     </form>
-                    <button type="submit" class= "btn-sm btnn">Register</button>
+                    <!-- <button onclick="myFunction()">Try it</button> -->
+                    <button type="submit" class="btn-sm btnn" onclick="myfunction()">Register</button>
+                    
                 </div>
             </div>
         </div>
     </form>
+    <script>
+                        function myFunction() {
+                        alert("Hello! I am an alert box!");
+                        }
+                    </script>
 </body>
 </html>
 

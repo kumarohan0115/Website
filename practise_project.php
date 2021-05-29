@@ -22,6 +22,14 @@ VALUES ('{$teacher_use}','{$ecoded_pass}','{$teacher_name}','{$teacher_phone}','
 
 $result=mysqli_query($connection,$sql_query) or die("i know why ");
 
+if(mysqli_num_rows($FINALLY_result)>0)
+{
+    header("Location:localhost/attend_repo/Website/enroll_student.php");
+
+    header("Location:localhost/attend_repo/Website/login.php");
+}
+
+
 mysqli_close($connection);
 
 
